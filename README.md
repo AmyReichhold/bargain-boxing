@@ -17,7 +17,7 @@ input file:
 > 2 1 3\
 > 4 3 5\
 > 2 3 4\
-> 4 5 6\
+> 4 5 6
 
 The first line in the file is the number of boxes and the following lines 
 represent boxes and their dimensions. Once the minimum number of visible 
