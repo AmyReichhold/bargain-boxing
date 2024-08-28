@@ -18,10 +18,10 @@ cat input_file | python3 bargain-boxing.py
 where `input_file` is the desired input file name.
 The program will read the input file from standard input. Below is an example 
 input file:
-> 4
-> 2 1 3
-> 4 3 5
-> 2 3 4
+> 4\
+> 2 1 3\
+> 4 3 5\
+> 2 3 4\
 > 4 5 6
 
 The first line in the file is the number of boxes and the following lines 
