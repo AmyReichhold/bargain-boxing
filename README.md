@@ -6,11 +6,16 @@ inside each other as possible. Given the number of boxes, the program will
 use the Ford-Fulkerson algorithm for Max-Flow to determine the minimum number 
 of visible boxes remaining. 
 
-## How to run bargain-boxing.py
-On the command line, run the following command:
+There are several implementation in various languages. Each implementation
+is contained in a self identifying directory (e.g. `java` for the Java version,
+`python` for the Python version).
+
+## How to run Python bargain-boxing
+On the command line, run the following command from the `python` directory:
 ```
 cat input_file | python3 bargain-boxing.py
 ```
+where `input_file` is the desired input file name.
 The program will read the input file from standard input. Below is an example 
 input file:
 > 4
@@ -23,6 +28,15 @@ The first line in the file is the number of boxes and the following lines
 represent boxes and their dimensions. Once the minimum number of visible 
 boxes is found, that number will be printed to standard output.
 
+Below is a sample run of the program using an input from the `inputs` 
+directory in this repository: 
+```
+$ cd python
+$ cat ../inputs/sampleInput.txt | python3 bargain_boxing.py
+1
+```
+The output of `1` shows that all boxes listed in `sampleInput.txt` can fit 
+inside one another, such that only one box remains visible.
 
 ## Implementation
 The program reads the input file specifying a bargain-boxing problem, and 
